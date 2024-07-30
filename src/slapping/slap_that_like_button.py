@@ -35,7 +35,6 @@ def slap_many(s: LikeState, slaps: str) -> LikeState:
             s = slap_like(s)
         elif c == 'd':
             s = slap_dislike(s)
-            print("")
         else:
             raise ValueError('invalid slap')
     return s
